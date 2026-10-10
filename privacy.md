@@ -1,0 +1,174 @@
+---
+title: Privacy Policy – PUBG Stream Report
+permalink: /privacy/
+lang: en
+---
+
+# Privacy Policy for the app “PUBG Stream Report”
+
+Last updated: 10 October 2026 · [Deutsche Fassung]({{ site.baseurl }}/datenschutz/)
+
+This is a translation. If the versions differ, the [German version]({{ site.baseurl }}/datenschutz/) applies.
+
+This policy tells you which data the app “PUBG Stream Report” (iOS and Android) and this website process, why, on which legal basis, and what rights you have.
+
+## 1. Controller
+
+Florian Erwerth<br>
+{{ site.address }}<br>
+Email: {{ site.email }}
+
+There is no data protection officer. The law does not require one.
+
+## 2. Overview
+
+- You do not need an account with name, email or password. The app creates an **anonymous account** on first launch.
+- The app stores the **PUBG names** you search for.
+- The app shows **ads** from Google AdMob. It uses your device's advertising ID only with your consent.
+- A **one-time purchase** removes the ads.
+- For searches, the app uses **public data** from the PUBG API and from Twitch. This data also concerns other players and streamers (see section 5).
+
+## 3. Anonymous account and searches (Supabase)
+
+**Data:** a random account ID, a sign-in token, the PUBG names you search for (the last 10 in “recent searches”), your search jobs (PUBG name, time window, time, status), the encounters you hide, and technical data such as IP address and time of the request.
+
+**Note:** You can search for any PUBG name, including another person's name. We cannot check who owns a name.
+
+**Purpose:** The app needs this data to run your searches and to show your recent searches and results.
+
+**Legal basis:** Art. 6(1)(b) GDPR (providing the app you want to use).
+
+**Recipient:** Supabase Pte. Ltd., 65 Chulia Street #38-02/03, OCBC Centre, Singapore 049513, as processor. The database is located in the EU (Paris, France). Access from the USA and Singapore is possible, based on the EU Standard Contractual Clauses (Art. 46(2)(c) GDPR).
+
+## 4. Data on your device
+
+The app stores on your device:
+
+- the sign-in token of the anonymous account,
+- the time of your last visit per searched name,
+- your choice in the ad consent form (Google),
+- a random RevenueCat user ID and your purchase status,
+- downloaded app updates.
+
+This is strictly necessary for the app to work (§ 25(2) no. 2 TDDDG). The advertising ID is read for ads only with your consent (§ 25(1) TDDDG, see section 6).
+
+## 5. Encounter search and data about streamers and other players
+
+### How the search works
+
+Our service runs on a server in Germany (netcup GmbH, Emmy-Noether-Straße 10, 76131 Karlsruhe, Germany, as processor) or on a computer owned by the controller in Germany.
+
+When you search for a PUBG name, the service asks the public **PUBG API** for that name's matches of the last 14 days. It sends the PUBG name to **KRAFTON, Inc.**, 231 Teheran-ro, Gangnam-gu, Seoul 06142, South Korea. KRAFTON is a controller in its own right. South Korea is covered by an EU adequacy decision (Art. 45 GDPR).
+
+The service then asks the **Twitch API** of Twitch Interactive, Inc., USA, for matching streams and videos. It sends no data about you to Twitch, only channel names and time windows.
+
+### Data about other people (Art. 14 GDPR)
+
+**Other PUBG players:** from public match data of the PUBG API: PUBG name, account ID, team, kills and knocks with weapon, distance and time.
+
+**Twitch streamers:** from public Twitch data:
+
+- channel name, times of PUBG live streams, videos (VODs) and whether they are available,
+- the **streamer's PUBG name**, read by text recognition (OCR) from the watermark that PUBG shows in the game image, using Twitch's public live stream preview images,
+- the link between Twitch channel and PUBG account.
+
+**Purpose:** We show users the moments when they appeared in a stream, with a link to that point in the video.
+
+**Legal basis:** Art. 6(1)(f) GDPR. Our legitimate interest, and that of our users, is finding these moments. The data is public: streamers broadcast their game image publicly, and the PUBG API is a public interface.
+
+**Profiling:** We do not analyse interests or behaviour. We only link channel and PUBG account so we can match streams to matches. There is no automated decision-making within the meaning of Art. 22 GDPR.
+
+**Retention:** see section 11.
+
+> **Objection:** If you are a player or streamer and do not want your data to be processed or to appear in results, write to {{ site.email }} (see section 12).
+
+## 6. Ads (Google AdMob)
+
+The app shows a banner from **Google AdMob** on the results screen. Provider: Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland.
+
+**Consent:** On first launch the app asks for your consent with Google's consent form (EU and EEA). On iOS, Apple also asks whether the app may track you across apps (App Tracking Transparency).
+
+**With consent**, Google uses your device's advertising ID (IDFA on iOS, advertising ID on Android), IP address, device type, operating system, app version, language and information about which ads you see and tap. Google uses this for personalised ads and ad measurement. Legal basis: Art. 6(1)(a) GDPR and § 25(1) TDDDG.
+
+**Without consent**, Google shows at most “limited ads”: without advertising ID, without storing anything on your device, and not personalised. Google still processes, for example, IP address and device information for delivery, billing and fraud prevention. Legal basis: Art. 6(1)(f) GDPR. Our legitimate interest is funding the app with ads.
+
+**Responsibility:** We may be joint controllers with Google for collecting the data in the app (Art. 26 GDPR). Google alone is responsible for what it does with the data afterwards.
+
+**Withdrawal:** You can withdraw your consent in the app at any time: start screen → “Datenschutz-Einstellungen” (privacy settings). On iOS you can also turn off tracking under Settings → Privacy & Security → Tracking.
+
+**Transfer to the USA:** Google may transfer data to the USA. Google LLC is certified under the EU-US Data Privacy Framework (Art. 45 GDPR).
+
+More: [Google Privacy Policy](https://policies.google.com/privacy) and [How Google uses information from apps](https://policies.google.com/technologies/partner-sites).
+
+## 7. “Remove ads” purchase (RevenueCat, Apple, Google)
+
+**Apple** (App Store) or **Google** (Google Play) process the purchase. We do not see payment data such as credit cards. Apple and Google are responsible for payments themselves; their privacy policies apply.
+
+To know that you bought it, the app uses **RevenueCat, Inc.**, 1032 E Brandon Blvd #3003, Brandon, FL 33511, USA, as processor.
+
+**Data:** a random RevenueCat user ID, purchase receipt (product, time, transaction ID), device type, operating system, app version, IP address, country and currency.
+
+**Legal basis:** Art. 6(1)(b) GDPR (performing the purchase). Retention for tax purposes: Art. 6(1)(c) GDPR.
+
+**Transfer to the USA:** based on the EU Standard Contractual Clauses (Art. 46(2)(c) GDPR).
+
+## 8. App updates (Expo)
+
+The app downloads small updates via **EAS Update** from 650 Industries, Inc. (Expo), USA, as processor. On launch the app checks whether an update exists.
+
+**Data:** IP address, operating system, app version, update channel and random technical identifiers.
+
+**Legal basis:** Art. 6(1)(f) GDPR. Our legitimate interest is fixing bugs quickly.
+
+**Transfer to the USA:** 650 Industries, Inc. is certified under the EU-US Data Privacy Framework (Art. 45 GDPR).
+
+## 9. Links to Twitch
+
+When you tap a moment, the app opens the video in the Twitch app or in the browser. From then on, the [Twitch Privacy Notice](https://www.twitch.tv/p/legal/privacy-notice/) applies. The app itself sends no data about you to Twitch.
+
+## 10. App stores and this website
+
+**App stores:** Apple and Google are responsible for downloading the app.
+
+**This website** is hosted on GitHub Pages by GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA. When you visit it, GitHub processes your IP address and technical data, for example for security. Legal basis: Art. 6(1)(f) GDPR. Our legitimate interest is providing this information free of charge. GitHub is certified under the EU-US Data Privacy Framework (Art. 45 GDPR). More: [GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
+
+## 11. How long we keep data
+
+- **Account, search jobs, recent searches and hidden encounters:** until you ask us to delete them. If you delete the app, you lose the anonymous account, and we can no longer link it to you.
+- **Match data from the PUBG API:** 14 days.
+- **Times when we checked live streams:** 14 days.
+- **Found encounters, live streams and links between Twitch channel and PUBG account:** until an objection or until we no longer need them.
+- **Technical logs at Supabase:** a few days, depending on the plan.
+- **Service log:** overwritten continuously once it reaches a fixed size.
+- **Purchase data:** held by Apple, Google and RevenueCat. We keep tax records as long as the law requires (§ 147 AO).
+
+## 12. Your rights
+
+You have the right to:
+
+- **access** your data (Art. 15 GDPR)
+- **rectification** (Art. 16 GDPR)
+- **erasure** (Art. 17 GDPR)
+- **restriction** of processing (Art. 18 GDPR)
+- **data portability** (Art. 20 GDPR)
+- **withdraw** consent at any time, with effect for the future (Art. 7(3) GDPR)
+
+> **Your right to object (Art. 21 GDPR)**
+>
+> Where we process data based on Art. 6(1)(f) GDPR (legitimate interest), you can object at any time on grounds relating to your particular situation. We will then stop processing this data unless we have compelling legitimate grounds that override your interests. This applies in particular to data about streamers and other players (section 5). Write to {{ site.email }}.
+
+For all requests, email {{ site.email }}. Because your account is anonymous, please send us the PUBG names you searched for and roughly when, so we can find your account.
+
+**Complaints:** You can lodge a complaint with a data protection supervisory authority (Art. 77 GDPR). Ours is the Bavarian Data Protection Authority (Bayerisches Landesamt für Datenschutzaufsicht, BayLDA), Promenade 18, 91522 Ansbach, Germany, [www.lda.bayern.de](https://www.lda.bayern.de).
+
+## 13. Providing data
+
+You do not have to provide any data. Without a PUBG name, however, the app cannot search.
+
+## 14. Children
+
+The app is not directed at people under 18.
+
+## 15. Changes
+
+We update this policy when the app or the law changes. The version on this page applies.
