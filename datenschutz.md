@@ -6,7 +6,7 @@ lang: de
 
 # Datenschutzerklärung für die App „PUBG Stream Report“
 
-Stand: 10. Oktober 2026 · [English version]({{ site.baseurl }}/privacy/)
+Stand: 12. Oktober 2026 · [English version]({{ site.baseurl }}/privacy/)
 
 Diese Erklärung sagt dir, welche Daten die App „PUBG Stream Report“ (iOS und Android) und diese Website verarbeiten, warum, auf welcher Rechtsgrundlage und welche Rechte du hast.
 
@@ -24,6 +24,7 @@ Einen Datenschutzbeauftragten gibt es nicht. Er ist gesetzlich nicht vorgeschrie
 - Die App speichert die **PUBG-Namen**, nach denen du suchst.
 - Die App zeigt **Werbung** von Google AdMob. Die Werbe-ID deines Geräts nutzt sie nur mit deiner Einwilligung.
 - Mit einem **einmaligen Kauf** kannst du die Werbung entfernen.
+- Die App sendet **anonyme Nutzungsereignisse** an Aptabase in der EU, ohne PUBG-Namen und ohne Kennung (siehe Abschnitt 9).
 - Für die Suche nutzt die App **öffentliche Daten** aus der PUBG API und von Twitch. Diese Daten betreffen auch andere Spieler und Streamer (siehe Abschnitt 5).
 
 ## 3. Anonymes Konto und Suchen (Supabase)
@@ -76,9 +77,9 @@ Dann fragt der Dienst die **Twitch API** von Twitch Interactive, Inc., USA, nach
 
 **Profiling:** Wir werten keine Interessen oder Verhaltensweisen aus. Wir verknüpfen nur Kanal und PUBG-Konto, damit wir Streams einem Match zuordnen können. Es gibt keine automatisierten Entscheidungen im Sinne von Art. 22 DSGVO.
 
-**Speicherdauer:** siehe Abschnitt 11.
+**Speicherdauer:** siehe Abschnitt 12.
 
-> **Widerspruch:** Wenn du als Spieler oder Streamer nicht möchtest, dass deine Daten verarbeitet werden oder in Ergebnissen erscheinen, schreib uns an {{ site.email }} (siehe Abschnitt 12).
+> **Widerspruch:** Wenn du als Spieler oder Streamer nicht möchtest, dass deine Daten verarbeitet werden oder in Ergebnissen erscheinen, schreib uns an {{ site.email }} (siehe Abschnitt 13).
 
 ## 6. Werbung (Google AdMob)
 
@@ -120,17 +121,35 @@ Die App lädt kleine Updates direkt über **EAS Update** von 650 Industries, Inc
 
 **Übermittlung in die USA:** 650 Industries, Inc. ist unter dem EU-US Data Privacy Framework zertifiziert (Art. 45 DSGVO).
 
-## 9. Links zu Twitch
+## 9. Nutzungsstatistik (Aptabase)
+
+Die App sendet anonyme **Nutzungsereignisse** an **Aptabase**. Ein Nutzungsereignis sagt zum Beispiel „App geöffnet“, „Suche gestartet“ oder „Szene geöffnet“. So sehen wir, welche Funktionen die App braucht und wo Fehler passieren. Anbieter ist Technov Solutions SRL, Str. Fabricii, Nr. 47, Bukarest, Rumänien, als Auftragsverarbeiter.
+
+**Welche Daten:** der Name des Nutzungsereignisses mit festen Werten (zum Beispiel „Zeitraum 3 Tage“ oder „Grund: offline“), Zeitpunkt, eine zufällige Sitzungs-ID, Betriebssystem und Version, App-Version, Build-Nummer und Version des SDK. Dazu kommt die IP-Adresse durch die Verbindung.
+
+**Keine PUBG-Namen, keine Streamer, keine Konto-ID, keine Werbe-ID:** Die App sendet nichts, womit man ein Nutzungsereignis mit dir oder deinem anonymen Konto verbinden kann.
+
+**Keine dauerhafte Kennung:** Die App speichert für Aptabase nichts auf deinem Gerät. Die Sitzungs-ID lebt nur im Speicher. Nach einer Stunde ohne Nutzung oder nach einem Neustart der App entsteht eine neue. Aptabase nutzt IP-Adresse und Gerätetyp nur kurz, um das Land oder die Region zu bestimmen und eine Kennung für einen Tag zu bilden. Diese Tages-Kennung ist ein Hash mit einem Zufallswert, den Aptabase nach spätestens 48 Stunden löscht. Die IP-Adresse speichert Aptabase nicht.
+
+**Rechtsgrundlage:** Art. 6 Abs. 1 lit. f DSGVO. Unser berechtigtes Interesse ist, die App zu verbessern und Fehler zu finden. Weil die Daten anonym sind und nichts auf deinem Gerät gespeichert wird, fragt die App nicht nach einer Einwilligung.
+
+**Ort:** Die Daten bleiben in der EU (Server in Deutschland). Unterauftragsverarbeiter von Aptabase sind Tinybird Data S.L. (Spanien) und Amazon Web Services EMEA SARL (Luxemburg), mit Verarbeitung in der EU.
+
+**Speicherdauer:** siehe Abschnitt 12.
+
+Mehr dazu: [Datenschutzerklärung von Aptabase](https://aptabase.com/legal/privacy).
+
+## 10. Links zu Twitch
 
 Wenn du einen Moment antippst, öffnet die App das Video in der Twitch-App oder im Browser. Ab dann gilt die [Datenschutzerklärung von Twitch](https://www.twitch.tv/p/legal/privacy-notice/). Die App selbst sendet keine Daten über dich an Twitch.
 
-## 10. App Stores und diese Website
+## 11. App Stores und diese Website
 
 **App Stores:** Für den Download der App sind Apple und Google selbst verantwortlich.
 
 **Diese Website** liegt bei GitHub Pages von GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA. Beim Aufruf verarbeitet GitHub deine IP-Adresse und technische Daten, zum Beispiel für die Sicherheit. Rechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO. Unser berechtigtes Interesse ist, diese Informationen kostenlos bereitzustellen. GitHub ist unter dem EU-US Data Privacy Framework zertifiziert (Art. 45 DSGVO). Mehr dazu: [GitHub Privacy Statement](https://docs.github.com/de/site-policy/privacy-policies/github-general-privacy-statement).
 
-## 11. Wie lange wir Daten speichern
+## 12. Wie lange wir Daten speichern
 
 - **Konto, Suchaufträge, letzte Suchen und ausgeblendete Begegnungen:** bis du die Löschung verlangst. Löschst du die App, verlierst du das anonyme Konto. Wir können es dir dann nicht mehr zuordnen.
 - **Match-Daten aus der PUBG API:** 14 Tage.
@@ -138,9 +157,10 @@ Wenn du einen Moment antippst, öffnet die App das Video in der Twitch-App oder 
 - **Gefundene Begegnungen, Livestreams und Zuordnungen von Twitch-Kanal zu PUBG-Konto:** bis zu einem Widerspruch oder bis wir sie nicht mehr brauchen.
 - **Technische Logs bei Supabase:** einige Tage, je nach Tarif.
 - **Log des Dienstes:** wird laufend überschrieben, sobald es eine feste Größe erreicht.
+- **Nutzungsereignisse bei Aptabase:** höchstens 5 Jahre. Die Tages-Kennung entfällt nach spätestens 48 Stunden, weil Aptabase den Zufallswert dazu löscht.
 - **Kaufdaten:** liegen bei Apple, Google und RevenueCat. Belege für die Steuer bewahren wir auf, so lange das Gesetz es verlangt (§ 147 AO).
 
-## 12. Deine Rechte
+## 13. Deine Rechte
 
 Du hast das Recht auf:
 
@@ -159,14 +179,14 @@ Für alle Anfragen schreib eine E-Mail an {{ site.email }}. Weil dein Konto anon
 
 **Beschwerde:** Du kannst dich bei einer Datenschutz-Aufsichtsbehörde beschweren (Art. 77 DSGVO). Für uns zuständig ist das Bayerische Landesamt für Datenschutzaufsicht (BayLDA), Promenade 18, 91522 Ansbach, [www.lda.bayern.de](https://www.lda.bayern.de).
 
-## 13. Pflicht zur Angabe von Daten
+## 14. Pflicht zur Angabe von Daten
 
 Du musst keine Daten angeben. Ohne PUBG-Namen kann die App aber nicht suchen.
 
-## 14. Kinder
+## 15. Kinder
 
 Die App richtet sich nicht an Personen unter 18 Jahren.
 
-## 15. Änderungen
+## 16. Änderungen
 
 Wir passen diese Erklärung an, wenn sich die App oder das Recht ändert. Es gilt die Fassung auf dieser Seite.

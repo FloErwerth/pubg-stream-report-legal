@@ -6,7 +6,7 @@ lang: en
 
 # Privacy Policy for the app “PUBG Stream Report”
 
-Last updated: 10 October 2026 · [Deutsche Fassung]({{ site.baseurl }}/datenschutz/)
+Last updated: 12 October 2026 · [Deutsche Fassung]({{ site.baseurl }}/datenschutz/)
 
 This is a translation. If the versions differ, the [German version]({{ site.baseurl }}/datenschutz/) applies.
 
@@ -26,6 +26,7 @@ There is no data protection officer. The law does not require one.
 - The app stores the **PUBG names** you search for.
 - The app shows **ads** from Google AdMob. It uses your device's advertising ID only with your consent.
 - A **one-time purchase** removes the ads.
+- The app sends **anonymous usage events** to Aptabase in the EU, without PUBG names and without an identifier (see section 9).
 - For searches, the app uses **public data** from the PUBG API and from Twitch. This data also concerns other players and streamers (see section 5).
 
 ## 3. Anonymous account and searches (Supabase)
@@ -78,9 +79,9 @@ The service then asks the **Twitch API** of Twitch Interactive, Inc., USA, for m
 
 **Profiling:** We do not analyse interests or behaviour. We only link channel and PUBG account so we can match streams to matches. There is no automated decision-making within the meaning of Art. 22 GDPR.
 
-**Retention:** see section 11.
+**Retention:** see section 12.
 
-> **Objection:** If you are a player or streamer and do not want your data to be processed or to appear in results, write to {{ site.email }} (see section 12).
+> **Objection:** If you are a player or streamer and do not want your data to be processed or to appear in results, write to {{ site.email }} (see section 13).
 
 ## 6. Ads (Google AdMob)
 
@@ -122,17 +123,35 @@ The app downloads small updates via **EAS Update** from 650 Industries, Inc. (Ex
 
 **Transfer to the USA:** 650 Industries, Inc. is certified under the EU-US Data Privacy Framework (Art. 45 GDPR).
 
-## 9. Links to Twitch
+## 9. Usage statistics (Aptabase)
+
+The app sends anonymous **usage events** to **Aptabase**. A usage event says, for example, “app opened”, “search started” or “scene opened”. This shows us which features the app needs and where errors happen. Provider: Technov Solutions SRL, Str. Fabricii, Nr. 47, Bucharest, Romania, as processor.
+
+**Data:** the name of the usage event with fixed values (for example “time window 3 days” or “reason: offline”), time, a random session ID, operating system and version, app version, build number and SDK version. Your IP address is also transmitted by the connection.
+
+**No PUBG names, no streamers, no account ID, no advertising ID:** The app sends nothing that can link a usage event to you or to your anonymous account.
+
+**No persistent identifier:** The app stores nothing on your device for Aptabase. The session ID only lives in memory. After one hour without use, or when the app restarts, a new one is created. Aptabase uses the IP address and device type only briefly, to determine the country or region and to derive an identifier for one day. This daily identifier is a hash with a random value that Aptabase deletes within 48 hours. Aptabase does not store the IP address.
+
+**Legal basis:** Art. 6(1)(f) GDPR. Our legitimate interest is improving the app and finding errors. Because the data is anonymous and nothing is stored on your device, the app does not ask for consent.
+
+**Location:** The data stays in the EU (servers in Germany). Aptabase's sub-processors are Tinybird Data S.L. (Spain) and Amazon Web Services EMEA SARL (Luxembourg), processing in the EU.
+
+**Retention:** see section 12.
+
+More: [Aptabase Privacy Policy](https://aptabase.com/legal/privacy).
+
+## 10. Links to Twitch
 
 When you tap a moment, the app opens the video in the Twitch app or in the browser. From then on, the [Twitch Privacy Notice](https://www.twitch.tv/p/legal/privacy-notice/) applies. The app itself sends no data about you to Twitch.
 
-## 10. App stores and this website
+## 11. App stores and this website
 
 **App stores:** Apple and Google are responsible for downloading the app.
 
 **This website** is hosted on GitHub Pages by GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA. When you visit it, GitHub processes your IP address and technical data, for example for security. Legal basis: Art. 6(1)(f) GDPR. Our legitimate interest is providing this information free of charge. GitHub is certified under the EU-US Data Privacy Framework (Art. 45 GDPR). More: [GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
 
-## 11. How long we keep data
+## 12. How long we keep data
 
 - **Account, search jobs, recent searches and hidden encounters:** until you ask us to delete them. If you delete the app, you lose the anonymous account, and we can no longer link it to you.
 - **Match data from the PUBG API:** 14 days.
@@ -140,9 +159,10 @@ When you tap a moment, the app opens the video in the Twitch app or in the brows
 - **Found encounters, live streams and links between Twitch channel and PUBG account:** until an objection or until we no longer need them.
 - **Technical logs at Supabase:** a few days, depending on the plan.
 - **Service log:** overwritten continuously once it reaches a fixed size.
+- **Usage events at Aptabase:** at most 5 years. The daily identifier stops working within 48 hours, because Aptabase deletes the random value behind it.
 - **Purchase data:** held by Apple, Google and RevenueCat. We keep tax records as long as the law requires (§ 147 AO).
 
-## 12. Your rights
+## 13. Your rights
 
 You have the right to:
 
@@ -161,14 +181,14 @@ For all requests, email {{ site.email }}. Because your account is anonymous, ple
 
 **Complaints:** You can lodge a complaint with a data protection supervisory authority (Art. 77 GDPR). Ours is the Bavarian Data Protection Authority (Bayerisches Landesamt für Datenschutzaufsicht, BayLDA), Promenade 18, 91522 Ansbach, Germany, [www.lda.bayern.de](https://www.lda.bayern.de).
 
-## 13. Providing data
+## 14. Providing data
 
 You do not have to provide any data. Without a PUBG name, however, the app cannot search.
 
-## 14. Children
+## 15. Children
 
 The app is not directed at people under 18.
 
-## 15. Changes
+## 16. Changes
 
 We update this policy when the app or the law changes. The version on this page applies.
