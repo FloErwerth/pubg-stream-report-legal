@@ -6,7 +6,7 @@ lang: en
 
 # Privacy Policy for the app “PUBG Stream Report”
 
-Last updated: 12 October 2026 · [Deutsche Fassung]({{ site.baseurl }}/datenschutz/)
+Last updated: 13 October 2026 · [Deutsche Fassung]({{ site.baseurl }}/datenschutz/)
 
 This is a translation. If the versions differ, the [German version]({{ site.baseurl }}/datenschutz/) applies.
 
@@ -23,7 +23,7 @@ There is no data protection officer. The law does not require one.
 ## 2. Overview
 
 - You do not need an account with name, email or password. The app creates an **anonymous account** on first launch.
-- The app stores the **PUBG names** you search for.
+- The app stores the **PUBG names** you search for. If PUBG finds a name, it can appear to other users as a **name suggestion**, without any link to you (see section 3).
 - The app shows **ads** from Google AdMob. It uses your device's advertising ID only with your consent.
 - A **one-time purchase** removes the ads.
 - The app sends **anonymous usage events** to Aptabase in the EU, without PUBG names and without an identifier (see section 9).
@@ -40,6 +40,25 @@ There is no data protection officer. The law does not require one.
 **Legal basis:** Art. 6(1)(b) GDPR (providing the app you want to use).
 
 **Recipient:** Supabase Pte. Ltd., 65 Chulia Street #38-02/03, OCBC Centre, Singapore 049513, as processor. The database is located in the EU (Paris, France). Access from the USA and Singapore is possible, based on the EU Standard Contractual Clauses (Art. 46(2)(c) GDPR).
+
+### Name suggestions
+
+When you type a PUBG name in the app, it shows up to 5 matching PUBG names as **name suggestions**, starting from 3 characters.
+
+**Data:** only the PUBG name. It comes from two sources:
+
+- PUBG names that a user searched for and that PUBG found. A name you search for can therefore also appear to other users as a name suggestion.
+- PUBG names of streamers, once we have confirmed the link between Twitch channel and PUBG account (see section 5).
+
+**What is not shared:** A name suggestion contains no account, no time and no Twitch channel. Other users therefore do not see who searched for the name, when someone searched, or whether the name belongs to a streamer.
+
+**Purpose:** The PUBG API only finds the exact name, and upper and lower case matter. Name suggestions show the name in the correct spelling, so fewer searches end without a result.
+
+**Legal basis:** Art. 6(1)(f) GDPR. Our legitimate interest, and that of our users, is that a search finds the intended player. PUBG names are public: PUBG shows them in matches and in the public PUBG API. We only show names that PUBG found, and at most 5 at a time.
+
+**Recipients:** other users of the app.
+
+**Deletion:** If you delete a name from “recent searches”, it stays a name suggestion. If you want a name to no longer appear as a name suggestion, write to {{ site.email }} (see section 13). Retention: see section 12.
 
 ## 4. Data on your device
 
@@ -73,7 +92,7 @@ The service then asks the **Twitch API** of Twitch Interactive, Inc., USA, for m
 - the **streamer's PUBG name**, read by text recognition (OCR) from the watermark that PUBG shows in the game image, using Twitch's public live stream preview images,
 - the link between Twitch channel and PUBG account.
 
-**Purpose:** We show users the moments when they appeared in a stream, with a link to that point in the video.
+**Purpose:** We show users the moments when they appeared in a stream, with a link to that point in the video. We also show the PUBG name of a streamer with a confirmed link as a name suggestion, without the Twitch channel and without any hint that it belongs to a streamer (see section 3).
 
 **Legal basis:** Art. 6(1)(f) GDPR. Our legitimate interest, and that of our users, is finding these moments. The data is public: streamers broadcast their game image publicly, and the PUBG API is a public interface.
 
@@ -154,6 +173,7 @@ When you tap a moment, the app opens the video in the Twitch app or in the brows
 ## 12. How long we keep data
 
 - **Account, search jobs, recent searches and hidden encounters:** until you ask us to delete them. If you delete the app, you lose the anonymous account, and we can no longer link it to you.
+- **Name suggestions:** as long as there is a search that found the name, or a confirmed link with this name. A name drops out when a later search for it ends without a result, or when the PUBG account has a newer name. Deleting a name from “recent searches” does not remove a name suggestion.
 - **Match data from the PUBG API:** 14 days.
 - **Times when we checked live streams:** 14 days.
 - **Found encounters, live streams and links between Twitch channel and PUBG account:** until an objection or until we no longer need them.
