@@ -6,7 +6,7 @@ lang: de
 
 # Datenschutzerklärung für die App „PUBG Stream Report“
 
-Stand: 12. Oktober 2026 · [English version]({{ site.baseurl }}/privacy/)
+Stand: 13. Oktober 2026 · [English version]({{ site.baseurl }}/privacy/)
 
 Diese Erklärung sagt dir, welche Daten die App „PUBG Stream Report“ (iOS und Android) und diese Website verarbeiten, warum, auf welcher Rechtsgrundlage und welche Rechte du hast.
 
@@ -21,7 +21,7 @@ Einen Datenschutzbeauftragten gibt es nicht. Er ist gesetzlich nicht vorgeschrie
 ## 2. Überblick
 
 - Du brauchst kein Konto mit Name, E-Mail oder Passwort. Die App legt beim ersten Start ein **anonymes Konto** an.
-- Die App speichert die **PUBG-Namen**, nach denen du suchst.
+- Die App speichert die **PUBG-Namen**, nach denen du suchst. Findet PUBG einen Namen, kann er anderen Nutzern als **Namensvorschlag** erscheinen, ohne Bezug zu dir (siehe Abschnitt 3).
 - Die App zeigt **Werbung** von Google AdMob. Die Werbe-ID deines Geräts nutzt sie nur mit deiner Einwilligung.
 - Mit einem **einmaligen Kauf** kannst du die Werbung entfernen.
 - Die App sendet **anonyme Nutzungsereignisse** an Aptabase in der EU, ohne PUBG-Namen und ohne Kennung (siehe Abschnitt 9).
@@ -38,6 +38,25 @@ Einen Datenschutzbeauftragten gibt es nicht. Er ist gesetzlich nicht vorgeschrie
 **Rechtsgrundlage:** Art. 6 Abs. 1 lit. b DSGVO (Bereitstellung der App, die du nutzen willst).
 
 **Empfänger:** Supabase Pte. Ltd., 65 Chulia Street #38-02/03, OCBC Centre, Singapur 049513, als Auftragsverarbeiter. Die Datenbank steht in der EU (Paris, Frankreich). Ein Zugriff aus den USA und aus Singapur ist möglich. Dafür gelten die Standardvertragsklauseln der EU-Kommission (Art. 46 Abs. 2 lit. c DSGVO).
+
+### Namensvorschläge
+
+Wenn du in der App einen PUBG-Namen tippst, zeigt sie dir ab 3 Zeichen bis zu 5 passende PUBG-Namen als **Namensvorschläge**.
+
+**Welche Daten:** nur der PUBG-Name. Er stammt aus zwei Quellen:
+
+- PUBG-Namen, nach denen ein Nutzer gesucht hat und die PUBG gefunden hat. Auch ein Name, nach dem du suchst, kann so anderen Nutzern als Namensvorschlag erscheinen.
+- PUBG-Namen von Streamern, wenn wir die Zuordnung von Twitch-Kanal zu PUBG-Konto bestätigt haben (siehe Abschnitt 5).
+
+**Was nicht geteilt wird:** Ein Namensvorschlag enthält kein Konto, keinen Zeitpunkt und keinen Twitch-Kanal. Andere Nutzer sehen also nicht, wer nach dem Namen gesucht hat, wann jemand gesucht hat und ob der Name zu einem Streamer gehört.
+
+**Zweck:** Die PUBG API findet nur den genauen Namen, und Groß- und Kleinschreibung zählt. Namensvorschläge zeigen den Namen in der richtigen Schreibweise, damit weniger Suchen ohne Treffer enden.
+
+**Rechtsgrundlage:** Art. 6 Abs. 1 lit. f DSGVO. Unser berechtigtes Interesse und das unserer Nutzer ist, dass eine Suche den gemeinten Spieler findet. PUBG-Namen sind öffentlich: PUBG zeigt sie in Matches und in der öffentlichen PUBG API. Wir zeigen nur Namen, die PUBG gefunden hat, und höchstens 5 auf einmal.
+
+**Empfänger:** andere Nutzer der App.
+
+**Löschen:** Wenn du einen Namen aus „Letzte Suchanfragen“ löschst, bleibt er ein Namensvorschlag. Soll ein Name nicht mehr als Namensvorschlag erscheinen, schreib uns an {{ site.email }} (siehe Abschnitt 13). Speicherdauer: siehe Abschnitt 12.
 
 ## 4. Daten auf deinem Gerät
 
@@ -71,7 +90,7 @@ Dann fragt der Dienst die **Twitch API** von Twitch Interactive, Inc., USA, nach
 - der **PUBG-Name des Streamers**. Den lesen wir per Texterkennung (OCR) aus dem Wasserzeichen, das PUBG im Spielbild zeigt. Dazu nutzen wir die öffentlichen Vorschaubilder der Livestreams von Twitch.
 - die Zuordnung von Twitch-Kanal zu PUBG-Konto.
 
-**Zweck:** Wir zeigen Nutzern die Momente, in denen sie in einem Stream zu sehen waren, mit einem Link zur passenden Stelle im Video.
+**Zweck:** Wir zeigen Nutzern die Momente, in denen sie in einem Stream zu sehen waren, mit einem Link zur passenden Stelle im Video. Den PUBG-Namen eines Streamers mit bestätigter Zuordnung zeigen wir außerdem als Namensvorschlag, ohne Twitch-Kanal und ohne Hinweis auf den Streamer (siehe Abschnitt 3).
 
 **Rechtsgrundlage:** Art. 6 Abs. 1 lit. f DSGVO. Unser berechtigtes Interesse und das unserer Nutzer ist, diese Momente zu finden. Die Daten sind öffentlich: Streamer zeigen ihr Spielbild selbst öffentlich, und die PUBG API ist eine öffentliche Schnittstelle.
 
@@ -152,6 +171,7 @@ Wenn du einen Moment antippst, öffnet die App das Video in der Twitch-App oder 
 ## 12. Wie lange wir Daten speichern
 
 - **Konto, Suchaufträge, letzte Suchen und ausgeblendete Begegnungen:** bis du die Löschung verlangst. Löschst du die App, verlierst du das anonyme Konto. Wir können es dir dann nicht mehr zuordnen.
+- **Namensvorschläge:** solange es eine Suche gibt, die den Namen gefunden hat, oder eine bestätigte Zuordnung mit diesem Namen. Ein Name fällt weg, wenn eine spätere Suche nach ihm ohne Treffer endet oder das PUBG-Konto einen neueren Namen hat. Das Löschen aus „Letzte Suchanfragen“ entfernt keinen Namensvorschlag.
 - **Match-Daten aus der PUBG API:** 14 Tage.
 - **Zeitpunkte, zu denen wir Livestreams geprüft haben:** 14 Tage.
 - **Gefundene Begegnungen, Livestreams und Zuordnungen von Twitch-Kanal zu PUBG-Konto:** bis zu einem Widerspruch oder bis wir sie nicht mehr brauchen.
