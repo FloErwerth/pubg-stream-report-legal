@@ -6,9 +6,9 @@ lang: de
 
 # Datenschutzerklärung für die App „PUBG Stream Report“
 
-Stand: 13. Oktober 2026 · [English version]({{ site.baseurl }}/privacy/)
+Stand: 14. Oktober 2026 · [English version]({{ site.baseurl }}/privacy/)
 
-Diese Erklärung sagt dir, welche Daten die App „PUBG Stream Report“ (iOS und Android) und diese Website verarbeiten, warum, auf welcher Rechtsgrundlage und welche Rechte du hast.
+Diese Erklärung sagt dir, welche Daten die App „PUBG Stream Report“ (iOS und Android), die Website pubgstreamreport.com und diese Website verarbeiten, warum, auf welcher Rechtsgrundlage und welche Rechte du hast.
 
 ## 1. Verantwortlicher
 
@@ -26,6 +26,7 @@ Einen Datenschutzbeauftragten gibt es nicht. Er ist gesetzlich nicht vorgeschrie
 - Mit einem **einmaligen Kauf** kannst du die Werbung entfernen.
 - Die App sendet **anonyme Nutzungsereignisse** an Aptabase in der EU, ohne PUBG-Namen und ohne Kennung (siehe Abschnitt 9).
 - Für die Suche nutzt die App **öffentliche Daten** aus der PUBG API und von Twitch. Diese Daten betreffen auch andere Spieler und Streamer (siehe Abschnitt 5).
+- Mit einem **Teilen-Link** kannst du eine Szene weitergeben. Die Website pubgstreamreport.com zeigt sie ohne Cookies und ohne Konto. Das Video von Twitch lädt erst, wenn du auf „Video laden“ klickst (siehe Abschnitt 11).
 
 ## 3. Anonymes Konto und Suchen (Supabase)
 
@@ -56,7 +57,7 @@ Wenn du in der App einen PUBG-Namen tippst, zeigt sie dir ab 3 Zeichen bis zu 5 
 
 **Empfänger:** andere Nutzer der App.
 
-**Löschen:** Wenn du einen Namen aus „Letzte Suchanfragen“ löschst, bleibt er ein Namensvorschlag. Soll ein Name nicht mehr als Namensvorschlag erscheinen, schreib uns an {{ site.email }} (siehe Abschnitt 13). Speicherdauer: siehe Abschnitt 12.
+**Löschen:** Wenn du einen Namen aus „Letzte Suchanfragen“ löschst, bleibt er ein Namensvorschlag. Soll ein Name nicht mehr als Namensvorschlag erscheinen, schreib uns an {{ site.email }} (siehe Abschnitt 14). Speicherdauer: siehe Abschnitt 13.
 
 ## 4. Daten auf deinem Gerät
 
@@ -96,9 +97,9 @@ Dann fragt der Dienst die **Twitch API** von Twitch Interactive, Inc., USA, nach
 
 **Profiling:** Wir werten keine Interessen oder Verhaltensweisen aus. Wir verknüpfen nur Kanal und PUBG-Konto, damit wir Streams einem Match zuordnen können. Es gibt keine automatisierten Entscheidungen im Sinne von Art. 22 DSGVO.
 
-**Speicherdauer:** siehe Abschnitt 12.
+**Speicherdauer:** siehe Abschnitt 13.
 
-> **Widerspruch:** Wenn du als Spieler oder Streamer nicht möchtest, dass deine Daten verarbeitet werden oder in Ergebnissen erscheinen, schreib uns an {{ site.email }} (siehe Abschnitt 13).
+> **Widerspruch:** Wenn du als Spieler oder Streamer nicht möchtest, dass deine Daten verarbeitet werden oder in Ergebnissen erscheinen, schreib uns an {{ site.email }} (siehe Abschnitt 14).
 
 ## 6. Werbung (Google AdMob)
 
@@ -154,7 +155,7 @@ Die App sendet anonyme **Nutzungsereignisse** an **Aptabase**. Ein Nutzungsereig
 
 **Ort:** Die Daten bleiben in der EU (Server in Deutschland). Unterauftragsverarbeiter von Aptabase sind Tinybird Data S.L. (Spanien) und Amazon Web Services EMEA SARL (Luxemburg), mit Verarbeitung in der EU.
 
-**Speicherdauer:** siehe Abschnitt 12.
+**Speicherdauer:** siehe Abschnitt 13.
 
 Mehr dazu: [Datenschutzerklärung von Aptabase](https://aptabase.com/legal/privacy).
 
@@ -162,25 +163,73 @@ Mehr dazu: [Datenschutzerklärung von Aptabase](https://aptabase.com/legal/priva
 
 Wenn du einen Moment antippst, öffnet die App das Video in der Twitch-App oder im Browser. Ab dann gilt die [Datenschutzerklärung von Twitch](https://www.twitch.tv/p/legal/privacy-notice/). Die App selbst sendet keine Daten über dich an Twitch.
 
-## 11. App Stores und diese Website
+## 11. Teilen-Links und die Website pubgstreamreport.com
+
+### Teilen-Link
+
+In der App kannst du eine Begegnung teilen. Die App erstellt dafür einen **Teilen-Link** (`https://pubgstreamreport.com/s/` mit einem Code) und gibt ihn an das Teilen-Menü deines Geräts. Der Text zum Teilen enthält diesen Link, nicht den Link zu Twitch. Wem du den Link schickst, entscheidest du.
+
+**Welche Daten:** Der Link enthält nur einen zufälligen Code aus 10 Zeichen, keine Daten über dich. Bei Supabase (siehe Abschnitt 3) speichern wir den Code, die Begegnung und den Zeitpunkt, zu dem der Link entstanden ist. Wir speichern nicht, wer geteilt hat: Der Code hängt an der Begegnung, nicht an deinem Konto. Wer dieselbe Begegnung teilt, bekommt denselben Link.
+
+**Was der Link zeigt:** Wer den Link öffnet, sieht die Begegnung: Kill oder Knock, den PUBG-Namen des Spielers, den Namen des Streamers, Waffe, Entfernung, Zeitpunkt und einen Link zur Szene bei Twitch. Er sieht kein Konto und nicht, wer geteilt hat.
+
+**Zweck:** Du kannst eine Szene anderen zeigen, auch Personen ohne die App.
+
+**Rechtsgrundlage:** Art. 6 Abs. 1 lit. f DSGVO. Unser berechtigtes Interesse und das unserer Nutzer ist, gefundene Szenen weiterzugeben. Die Daten über Streamer und andere Spieler stammen aus öffentlichen Streams und Matches (siehe Abschnitt 5). Der Code ist zufällig, damit niemand alle Begegnungen über Teilen-Links abrufen kann.
+
+**Öffnen in der App:** Öffnest du einen Teilen-Link mit der App, lädt sie die Begegnung mit deinem anonymen Konto bei Supabase (siehe Abschnitt 3) und öffnet die Szene bei Twitch (siehe Abschnitt 10).
+
+**Speicherdauer:** Der Teilen-Link gilt, solange die Begegnung gespeichert ist. Löschen wir die Begegnung, löschen wir ihren Teilen-Link mit (siehe Abschnitt 13).
+
+### Die Website pubgstreamreport.com
+
+Öffnet jemand einen Teilen-Link ohne die App, zeigt die Website pubgstreamreport.com die Szene. Die Website hat eine Startseite und die Teilen-Seite.
+
+**Hosting:** Die Website liegt auf unserem Server in Deutschland bei der netcup GmbH (siehe Abschnitt 5), als Auftragsverarbeiter. Beim Aufruf sendet dein Browser technisch nötige Daten wie IP-Adresse, Zeitpunkt, aufgerufene Adresse und Browser-Typ. Der Webserver schreibt keine Zugriffs-Logs, er speichert diese Daten also nicht. Das Zertifikat für die verschlüsselte Verbindung (HTTPS) holt der Server selbst bei Let's Encrypt. Dabei sendet er keine Daten über Besucher.
+
+**Keine Cookies, kein Konto:** Die Website setzt keine Cookies, speichert keine Sitzung und legt kein Konto an. Sie zeigt keine Werbung, sendet keine Nutzungsereignisse und lädt keine Schriften, Bilder oder Skripte von anderen Anbietern. Ausnahme ist der Player von Twitch, aber erst nach deinem Klick (siehe unten).
+
+**Supabase:** Die Teilen-Seite lädt die Begegnung zum Code direkt bei Supabase (siehe Abschnitt 3), mit einem öffentlichen Schlüssel und ohne Konto. Supabase erhält dabei wie bei der App deine IP-Adresse und technische Daten der Anfrage.
+
+**Rechtsgrundlage:** Art. 6 Abs. 1 lit. f DSGVO. Unser berechtigtes Interesse ist, geteilte Szenen auch ohne die App zu zeigen.
+
+### Video von Twitch (erst nach Klick)
+
+Die Teilen-Seite zeigt zuerst nur einen eigenen Platzhalter mit dem Knopf „Video laden“. Bis dahin lädt sie nichts von Twitch. Erst nach deinem Klick lädt sie den Player von Twitch (player.twitch.tv). Anbieter ist Twitch Interactive, Inc., USA.
+
+**Welche Daten:** Twitch erhält dann Daten wie deine IP-Adresse, Browser-Infos, die Adresse unserer Seite und welches Video du ansiehst. Twitch setzt Cookies in deinem Browser.
+
+**Rechtsgrundlage:** deine Einwilligung durch den Klick auf „Video laden“ (Art. 6 Abs. 1 lit. a DSGVO und § 25 Abs. 1 TDDDG). Die Seite merkt sich den Klick nicht. Beim nächsten Aufruf siehst du wieder den Platzhalter. Cookies von Twitch kannst du in deinem Browser löschen.
+
+**Verantwortung:** Für das Einbinden des Players können wir gemeinsam mit Twitch verantwortlich sein (Art. 26 DSGVO). Für alles, was Twitch danach mit den Daten macht, ist Twitch allein verantwortlich.
+
+**Übermittlung in die USA:** Twitch kann Daten in die USA übermitteln. Wie Twitch das absichert, steht in der Datenschutzerklärung von Twitch.
+
+Der Link „Szene bei Twitch öffnen“ führt direkt zu twitch.tv. Ab dann gilt die Datenschutzerklärung von Twitch.
+
+Mehr dazu: [Datenschutzerklärung von Twitch](https://www.twitch.tv/p/legal/privacy-notice/).
+
+## 12. App Stores und diese Website
 
 **App Stores:** Für den Download der App sind Apple und Google selbst verantwortlich.
 
-**Diese Website** liegt bei GitHub Pages von GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA. Beim Aufruf verarbeitet GitHub deine IP-Adresse und technische Daten, zum Beispiel für die Sicherheit. Rechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO. Unser berechtigtes Interesse ist, diese Informationen kostenlos bereitzustellen. GitHub ist unter dem EU-US Data Privacy Framework zertifiziert (Art. 45 DSGVO). Mehr dazu: [GitHub Privacy Statement](https://docs.github.com/de/site-policy/privacy-policies/github-general-privacy-statement).
+**Diese Website** mit Datenschutzerklärung und Impressum liegt bei GitHub Pages von GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA. Beim Aufruf verarbeitet GitHub deine IP-Adresse und technische Daten, zum Beispiel für die Sicherheit. Rechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO. Unser berechtigtes Interesse ist, diese Informationen kostenlos bereitzustellen. GitHub ist unter dem EU-US Data Privacy Framework zertifiziert (Art. 45 DSGVO). Mehr dazu: [GitHub Privacy Statement](https://docs.github.com/de/site-policy/privacy-policies/github-general-privacy-statement).
 
-## 12. Wie lange wir Daten speichern
+## 13. Wie lange wir Daten speichern
 
 - **Konto, Suchaufträge, letzte Suchen und ausgeblendete Begegnungen:** bis du die Löschung verlangst. Löschst du die App, verlierst du das anonyme Konto. Wir können es dir dann nicht mehr zuordnen.
 - **Namensvorschläge:** solange es eine Suche gibt, die den Namen gefunden hat, oder eine bestätigte Zuordnung mit diesem Namen. Ein Name fällt weg, wenn eine spätere Suche nach ihm ohne Treffer endet oder das PUBG-Konto einen neueren Namen hat. Das Löschen aus „Letzte Suchanfragen“ entfernt keinen Namensvorschlag.
 - **Match-Daten aus der PUBG API:** 14 Tage.
 - **Zeitpunkte, zu denen wir Livestreams geprüft haben:** 14 Tage.
 - **Gefundene Begegnungen, Livestreams und Zuordnungen von Twitch-Kanal zu PUBG-Konto:** bis zu einem Widerspruch oder bis wir sie nicht mehr brauchen.
+- **Teilen-Links:** solange die Begegnung gespeichert ist. Mit der Begegnung löschen wir auch ihren Teilen-Link.
 - **Technische Logs bei Supabase:** einige Tage, je nach Tarif.
 - **Log des Dienstes:** wird laufend überschrieben, sobald es eine feste Größe erreicht.
+- **Zugriffe auf die Website pubgstreamreport.com:** werden nicht gespeichert (keine Zugriffs-Logs).
 - **Nutzungsereignisse bei Aptabase:** höchstens 5 Jahre. Die Tages-Kennung entfällt nach spätestens 48 Stunden, weil Aptabase den Zufallswert dazu löscht.
 - **Kaufdaten:** liegen bei Apple, Google und RevenueCat. Belege für die Steuer bewahren wir auf, so lange das Gesetz es verlangt (§ 147 AO).
 
-## 13. Deine Rechte
+## 14. Deine Rechte
 
 Du hast das Recht auf:
 
@@ -199,14 +248,14 @@ Für alle Anfragen schreib eine E-Mail an {{ site.email }}. Weil dein Konto anon
 
 **Beschwerde:** Du kannst dich bei einer Datenschutz-Aufsichtsbehörde beschweren (Art. 77 DSGVO). Für uns zuständig ist das Bayerische Landesamt für Datenschutzaufsicht (BayLDA), Promenade 18, 91522 Ansbach, [www.lda.bayern.de](https://www.lda.bayern.de).
 
-## 14. Pflicht zur Angabe von Daten
+## 15. Pflicht zur Angabe von Daten
 
 Du musst keine Daten angeben. Ohne PUBG-Namen kann die App aber nicht suchen.
 
-## 15. Kinder
+## 16. Kinder
 
 Die App richtet sich nicht an Personen unter 18 Jahren.
 
-## 16. Änderungen
+## 17. Änderungen
 
 Wir passen diese Erklärung an, wenn sich die App oder das Recht ändert. Es gilt die Fassung auf dieser Seite.
