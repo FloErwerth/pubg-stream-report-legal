@@ -167,7 +167,7 @@ Wenn du einen Moment antippst, öffnet die App das Video in der Twitch-App oder 
 
 ### Teilen-Link
 
-In der App kannst du eine Begegnung teilen. Die App erstellt dafür einen **Teilen-Link** (`https://pubgstreamreport.com/s/` mit einem Code) und gibt ihn an das Teilen-Menü deines Geräts. Der Text zum Teilen enthält diesen Link, nicht den Link zu Twitch. Wem du den Link schickst, entscheidest du.
+In der App kannst du eine Begegnung teilen. Die App erstellt dafür einen **Teilen-Link** (`https://pubgstreamreport.com/s/` mit einem Code) und gibt ihn an das Teilen-Menü deines Geräts. Der Text zum Teilen enthält normalerweise diesen Link. Kann die App keinen Teilen-Link erstellen (zum Beispiel ohne Internet), enthält der Text stattdessen den Link zur Szene bei Twitch. Wer diesen Link öffnet, kommt direkt zu Twitch (siehe Abschnitt 10). Wem du den Link schickst, entscheidest du.
 
 **Welche Daten:** Der Link enthält nur einen zufälligen Code aus 10 Zeichen, keine Daten über dich. Bei Supabase (siehe Abschnitt 3) speichern wir den Code, die Begegnung und den Zeitpunkt, zu dem der Link entstanden ist. Wir speichern nicht, wer geteilt hat: Der Code hängt an der Begegnung, nicht an deinem Konto. Wer dieselbe Begegnung teilt, bekommt denselben Link.
 
@@ -199,7 +199,7 @@ Die Teilen-Seite zeigt zuerst nur einen eigenen Platzhalter mit dem Knopf „Vid
 
 **Welche Daten:** Twitch erhält dann Daten wie deine IP-Adresse, Browser-Infos, die Adresse unserer Seite und welches Video du ansiehst. Twitch setzt Cookies in deinem Browser.
 
-**Rechtsgrundlage:** deine Einwilligung durch den Klick auf „Video laden“ (Art. 6 Abs. 1 lit. a DSGVO und § 25 Abs. 1 TDDDG). Die Seite merkt sich den Klick nicht. Beim nächsten Aufruf siehst du wieder den Platzhalter. Cookies von Twitch kannst du in deinem Browser löschen.
+**Rechtsgrundlage:** deine Einwilligung durch den Klick auf „Video laden“ (Art. 6 Abs. 1 lit. a DSGVO und § 25 Abs. 1 TDDDG). Die Seite merkt sich den Klick nicht. **Widerruf:** Lädst du die Seite neu oder verlässt du sie, ist der Player weg und es gehen keine weiteren Daten an Twitch. Beim nächsten Aufruf siehst du wieder den Platzhalter. Cookies von Twitch kannst du in deinem Browser löschen.
 
 **Verantwortung:** Für das Einbinden des Players können wir gemeinsam mit Twitch verantwortlich sein (Art. 26 DSGVO). Für alles, was Twitch danach mit den Daten macht, ist Twitch allein verantwortlich.
 

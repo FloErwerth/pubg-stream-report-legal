@@ -169,7 +169,7 @@ When you tap a moment, the app opens the video in the Twitch app or in the brows
 
 ### Share link
 
-In the app you can share an encounter. The app creates a **share link** for it (`https://pubgstreamreport.com/s/` with a code) and passes it to your device's share menu. The share text contains this link, not the Twitch link. You decide whom you send the link to.
+In the app you can share an encounter. The app creates a **share link** for it (`https://pubgstreamreport.com/s/` with a code) and passes it to your device's share menu. The share text normally contains this link. If the app cannot create a share link (for example without internet), the text contains the link to the scene on Twitch instead. Anyone who opens that link goes directly to Twitch (see section 10). You decide whom you send the link to.
 
 **Data:** The link only contains a random 10-character code, no data about you. At Supabase (see section 3) we store the code, the encounter and the time the link was created. We do not store who shared it: the code belongs to the encounter, not to your account. Anyone who shares the same encounter gets the same link.
 
@@ -201,7 +201,7 @@ The share page first shows only our own placeholder with the button “Load vide
 
 **Data:** Twitch then receives data such as your IP address, browser information, the address of our page and which video you watch. Twitch sets cookies in your browser.
 
-**Legal basis:** your consent by clicking “Load video” (Art. 6(1)(a) GDPR and § 25(1) TDDDG). The page does not remember the click. On your next visit you see the placeholder again. You can delete Twitch cookies in your browser.
+**Legal basis:** your consent by clicking “Load video” (Art. 6(1)(a) GDPR and § 25(1) TDDDG). The page does not remember the click. **Withdrawal:** If you reload or leave the page, the player is gone and no further data goes to Twitch. On your next visit you see the placeholder again. You can delete Twitch cookies in your browser.
 
 **Responsibility:** We may be joint controllers with Twitch for embedding the player (Art. 26 GDPR). Twitch alone is responsible for what it does with the data afterwards.
 
