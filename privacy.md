@@ -6,7 +6,7 @@ lang: en
 
 # Privacy Policy for the app “PUBG Stream Report”
 
-Last updated: 13 October 2026 · [Deutsche Fassung]({{ site.baseurl }}/datenschutz/)
+Last updated: 18 October 2026 · [Deutsche Fassung]({{ site.baseurl }}/datenschutz/)
 
 This is a translation. If the versions differ, the [German version]({{ site.baseurl }}/datenschutz/) applies.
 
@@ -26,6 +26,7 @@ There is no data protection officer. The law does not require one.
 - The app stores the **PUBG names** you search for. If PUBG finds a name, it can appear to other users as a **name suggestion**, without any link to you (see section 3).
 - The app shows **ads** from Google AdMob. It uses your device's advertising ID only with your consent.
 - A **one-time purchase** removes the ads.
+- If you send us **feedback** in the app, we store your text with your anonymous account (see section 3).
 - The app sends **anonymous usage events** to Aptabase in the EU, without PUBG names and without an identifier (see section 9).
 - For searches, the app uses **public data** from the PUBG API and from Twitch. This data also concerns other players and streamers (see section 5).
 
@@ -60,6 +61,22 @@ When you type a PUBG name in the app, it shows up to 5 matching PUBG names as **
 
 **Deletion:** If you delete a name from “recent searches”, it stays a name suggestion. If you want a name to no longer appear as a name suggestion, write to {{ site.email }} (see section 13). Retention: see section 12.
 
+### Feedback
+
+In the app settings, you can send us a text under “Send feedback”, for example a bug or an idea.
+
+**Data:** your text (at most 5000 characters), your account ID, the time, the app version, the operating system and its version, and the app language. The app does not ask for your email address, so we cannot reply to you.
+
+**Note:** Please do not put personal data in the text, for example your real name, your email address or your phone number.
+
+**Purpose:** We read your feedback to find bugs and improve the app. We need the account ID so that one account can send at most 5 entries per day. This protects us from spam.
+
+**Legal basis:** Art. 6(1)(f) GDPR. Our legitimate interest is to improve the app. Sending feedback is voluntary.
+
+**Recipient:** Supabase as processor, as above. Only we read the entries. Other users do not see them.
+
+**Retention:** 12 months (see section 12).
+
 ## 4. Data on your device
 
 The app stores on your device:
@@ -68,6 +85,7 @@ The app stores on your device:
 - the time of your last visit per searched name,
 - your choice in the ad consent form (Google),
 - a random RevenueCat user ID and your purchase status,
+- for the request to rate the app in the store: on how many days you opened the app, how many scenes you watched, and whether the app has already asked,
 - downloaded app updates.
 
 This is strictly necessary for the app to work (§ 25(2) no. 2 TDDDG). The advertising ID is read for ads only with your consent (§ 25(1) TDDDG, see section 6).
@@ -174,6 +192,7 @@ When you tap a moment, the app opens the video in the Twitch app or in the brows
 
 - **Account, search jobs, recent searches and hidden encounters:** until you ask us to delete them. If you delete the app, you lose the anonymous account, and we can no longer link it to you.
 - **Name suggestions:** as long as there is a search that found the name, or a confirmed link with this name. A name drops out when a later search for it ends without a result, or when the PUBG account has a newer name. Deleting a name from “recent searches” does not remove a name suggestion.
+- **Feedback:** 12 months from sending. After that, we delete the entry automatically.
 - **Match data from the PUBG API:** 14 days.
 - **Times when we checked live streams:** 14 days.
 - **Found encounters, live streams and links between Twitch channel and PUBG account:** until an objection or until we no longer need them.
