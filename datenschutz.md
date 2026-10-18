@@ -6,7 +6,7 @@ lang: de
 
 # Datenschutzerklärung für die App „PUBG Stream Report“
 
-Stand: 13. Oktober 2026 · [English version]({{ site.baseurl }}/privacy/)
+Stand: 18. Oktober 2026 · [English version]({{ site.baseurl }}/privacy/)
 
 Diese Erklärung sagt dir, welche Daten die App „PUBG Stream Report“ (iOS und Android) und diese Website verarbeiten, warum, auf welcher Rechtsgrundlage und welche Rechte du hast.
 
@@ -24,6 +24,7 @@ Einen Datenschutzbeauftragten gibt es nicht. Er ist gesetzlich nicht vorgeschrie
 - Die App speichert die **PUBG-Namen**, nach denen du suchst. Findet PUBG einen Namen, kann er anderen Nutzern als **Namensvorschlag** erscheinen, ohne Bezug zu dir (siehe Abschnitt 3).
 - Die App zeigt **Werbung** von Google AdMob. Die Werbe-ID deines Geräts nutzt sie nur mit deiner Einwilligung.
 - Mit einem **einmaligen Kauf** kannst du die Werbung entfernen.
+- Wenn du uns in der App **Feedback** schickst, speichern wir deinen Text mit deinem anonymen Konto (siehe Abschnitt 3).
 - Die App sendet **anonyme Nutzungsereignisse** an Aptabase in der EU, ohne PUBG-Namen und ohne Kennung (siehe Abschnitt 9).
 - Für die Suche nutzt die App **öffentliche Daten** aus der PUBG API und von Twitch. Diese Daten betreffen auch andere Spieler und Streamer (siehe Abschnitt 5).
 
@@ -58,6 +59,22 @@ Wenn du in der App einen PUBG-Namen tippst, zeigt sie dir ab 3 Zeichen bis zu 5 
 
 **Löschen:** Wenn du einen Namen aus „Letzte Suchanfragen“ löschst, bleibt er ein Namensvorschlag. Soll ein Name nicht mehr als Namensvorschlag erscheinen, schreib uns an {{ site.email }} (siehe Abschnitt 13). Speicherdauer: siehe Abschnitt 12.
 
+### Feedback
+
+In den Einstellungen der App kannst du uns unter „Feedback senden“ einen Text schicken, zum Beispiel einen Fehler oder eine Idee.
+
+**Welche Daten:** dein Text (höchstens 5000 Zeichen), deine Konto-ID, der Zeitpunkt, die App-Version, das Betriebssystem mit Version und die Sprache der App. Die App fragt nicht nach deiner E-Mail-Adresse. Wir können dir darum nicht antworten.
+
+**Hinweis:** Bitte schreib keine persönlichen Daten in den Text, zum Beispiel deinen echten Namen, deine E-Mail-Adresse oder deine Telefonnummer.
+
+**Zweck:** Wir lesen dein Feedback, um Fehler zu finden und die App zu verbessern. Die Konto-ID brauchen wir, damit ein Konto höchstens 5 Einträge pro Tag schicken kann. So schützen wir uns vor Spam.
+
+**Rechtsgrundlage:** Art. 6 Abs. 1 lit. f DSGVO. Unser berechtigtes Interesse ist, die App zu verbessern. Du schickst Feedback freiwillig.
+
+**Empfänger:** Supabase als Auftragsverarbeiter, wie oben. Nur wir lesen die Einträge, andere Nutzer sehen sie nicht.
+
+**Speicherdauer:** 12 Monate (siehe Abschnitt 12).
+
 ## 4. Daten auf deinem Gerät
 
 Die App speichert auf deinem Gerät:
@@ -66,6 +83,7 @@ Die App speichert auf deinem Gerät:
 - den Zeitpunkt deines letzten Besuchs pro gesuchtem Namen,
 - deine Entscheidung zur Werbe-Einwilligung (Formular von Google),
 - eine zufällige Nutzer-ID von RevenueCat und den Stand deines Kaufs,
+- für die Bitte um eine Bewertung im Store: an wie vielen Tagen du die App geöffnet hast, wie viele Szenen du angesehen hast und ob die App schon gefragt hat,
 - heruntergeladene App-Updates.
 
 Das ist für die Funktion der App unbedingt nötig (§ 25 Abs. 2 Nr. 2 TDDDG). Das Auslesen der Werbe-ID für Werbung geschieht nur mit deiner Einwilligung (§ 25 Abs. 1 TDDDG, siehe Abschnitt 6).
@@ -172,6 +190,7 @@ Wenn du einen Moment antippst, öffnet die App das Video in der Twitch-App oder 
 
 - **Konto, Suchaufträge, letzte Suchen und ausgeblendete Begegnungen:** bis du die Löschung verlangst. Löschst du die App, verlierst du das anonyme Konto. Wir können es dir dann nicht mehr zuordnen.
 - **Namensvorschläge:** solange es eine Suche gibt, die den Namen gefunden hat, oder eine bestätigte Zuordnung mit diesem Namen. Ein Name fällt weg, wenn eine spätere Suche nach ihm ohne Treffer endet oder das PUBG-Konto einen neueren Namen hat. Das Löschen aus „Letzte Suchanfragen“ entfernt keinen Namensvorschlag.
+- **Feedback:** 12 Monate ab dem Senden. Danach löschen wir den Eintrag automatisch.
 - **Match-Daten aus der PUBG API:** 14 Tage.
 - **Zeitpunkte, zu denen wir Livestreams geprüft haben:** 14 Tage.
 - **Gefundene Begegnungen, Livestreams und Zuordnungen von Twitch-Kanal zu PUBG-Konto:** bis zu einem Widerspruch oder bis wir sie nicht mehr brauchen.
